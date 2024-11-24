@@ -1,2 +1,5 @@
 streamlit
-python-pptx
+python-pptx~=0.6.21
+PyPDF2
+io
+spacy
