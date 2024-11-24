@@ -4,10 +4,6 @@ from transformers import pipeline
 # Load spaCy language model
 nlp_spacy = spacy.load("en_core_web_sm")
 
-
-# Load spaCy model
-nlp_spacy = spacy.load("en_core_web_sm")
-
 # Load Hugging Face summarization model
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
 
