@@ -2,4 +2,4 @@ streamlit
 python-pptx~=0.6.21
 PyPDF2
 io
-spacy
+spacy>=3.0.0,<4.0.0
